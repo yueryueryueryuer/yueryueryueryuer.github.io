@@ -1,5 +1,5 @@
 module.exports = {
-    // base: '/myBlog/',
+    base: '/my-blog/',
     title: 'Learning',
     description: '学习小站',
     port: '8080',
