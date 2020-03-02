@@ -1,6 +1,12 @@
 module.exports = {
     base: '/my-blog/',
     title: 'Learning',
+    head: [
+        ['link', {
+            rel: 'icon',
+            href: '/img/favicon.ico'
+        }]
+    ],
     description: '学习小站',
     port: '8080',
     themeConfig: {
