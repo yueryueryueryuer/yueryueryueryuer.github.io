@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - lts/*
+install:
+  - npm i yarn -g
+  - yarn global add vuepress
+script:
+  - yarn build # 执行命令
+  - pwd
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  github_token: 7899a5f4614f18114fb35905fbfdf96f135c2870
+  keep_history: true
+  on:
+    branch: master
