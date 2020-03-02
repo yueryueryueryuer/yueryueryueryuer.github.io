@@ -23,6 +23,8 @@ module.exports = {
                 title: '杂项',
                 collapsable: false,
                 children: [
+                    '/items/markdown',
+                    '/items/emoji',
                     '/items/compare',
                     '/items/development',
                 ]
