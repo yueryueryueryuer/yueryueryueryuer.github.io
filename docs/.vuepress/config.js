@@ -4,37 +4,126 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: '/img/favicon.ico'
+            href: '/favicon.ico'
         }]
     ],
-    description: '学习小站',
+    description: '个人小站',
     port: '8080',
     themeConfig: {
         logo: '/img/logo.png',
-        sidebar: [{
-                title: 'Java',
-                collapsable: false,
-                children: [
-                    '/java/stream'
-                ]
+        lastUpdated: '上次更新',
+        nav: [{
+                text: 'Java',
+                link: '/java/'
             },
             {
-                title: 'Linux',
-                collapsable: false,
-                children: [
-                    '/linux/base64'
-                ]
+                text: 'Golang',
+                link: '/golang/'
             },
             {
-                title: '杂项',
+                text: 'Linux',
+                link: '/linux/'
+            },
+            {
+                text: '系统架构设计师',
+                link: '/系统架构设计师/'
+            },
+            {
+                text: '杂项',
+                link: '/items/'
+            },
+            {
+                text: 'GitHub',
+                link: 'https://github.com/yueryueryueryuer/my-blog'
+            },
+        ],
+        sidebar: {
+            '/java/': [{
+                    title: 'Stream',
+                    collapsable: false,
+                    children: [{
+                            title: 'Stream 详解',
+                            path: '/java/stream/stream'
+                        },
+                        {
+                            title: '常用 Stream',
+                            path: '/java/stream/stream_commonly'
+                        }
+                    ]
+                },
+                {
+                    title: 'Optional',
+                    collapsable: false,
+                    children: [{
+                            title: 'Optional 详解',
+                            path: '/java/optional/optional'
+                        },
+                        {
+                            title: '常用 Optional',
+                            path: '/java/optional/optional_commonly'
+                        }
+                    ]
+                }
+            ],
+            '/golang/': [{
+                title: 'Golang 学习路线',
                 collapsable: false,
-                children: [
-                    '/items/markdown',
-                    '/items/emoji',
-                    '/items/compare',
-                    '/items/development',
-                ]
-            }
-        ]
+                path: '/golang/learning'
+            }],
+            '/linux/': [{
+                    title: '文件操作',
+                    collapsable: false,
+                    path: '/linux/disk'
+                },
+                {
+                    title: '常用命令',
+                    collapsable: false,
+                    children: [{
+                        title: 'Base64 转码',
+                        path: '/linux/base64'
+                    }]
+                }
+            ],
+            '/系统架构设计师/': [{
+                title: '计算机与网络基础知识',
+                collapsable: false,
+                // children: [{
+                //         title: 'Stream 详解',
+                //         path: '/java/stream/stream'
+                //     },
+                //     {
+                //         title: '常用 Stream',
+                //         path: '/java/stream/stream_commonly'
+                //     }
+                // ]
+            }],
+            '/items/': [{
+                    title: 'Markdown',
+                    collapsable: false,
+                    path: '/items/markdown'
+                },
+                {
+                    title: 'Emoji',
+                    collapsable: false,
+                    path: '/items/emoji'
+                },
+                {
+                    title: '常用对照表',
+                    collapsable: false,
+                    children: [{
+                            title: 'Html 常用字符转义',
+                            path: '/items/compare/compare_html'
+                        }, {
+                            title: 'Mybatis 转义',
+                            path: '/items/compare/compare_mybatis'
+                        }, {
+                            title: 'RGB 颜色对照',
+                            path: '/items/compare/compare_rgb'
+                        },
+
+                    ]
+                }
+            ],
+        }
     }
 }

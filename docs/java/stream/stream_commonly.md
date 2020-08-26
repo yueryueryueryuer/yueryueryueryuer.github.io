@@ -1,13 +1,4 @@
-# Stream 操作
-
-```java
-public class User {
-  private String name;
-  private int gender;
-  private int age;
-  private String tel;
-}
-```
+# 常用 Stream
 
 ## List&lt;Pojo&gt;转 List&lt;String&gt;
 
@@ -21,18 +12,22 @@ List<String> nameList = userList.stream()
 
 ```java
 Map<String,String> nameTelMap = userList.stream()
-.collect(
-  Collectors.toMap(User::getName, User::getTel, (a,b) -> b)
-  );
+  .collect(Collectors.toMap(User::getName, User::getTel, (a,b) -> b));
+```
+
+## List&lt;Pojo&gt;过滤
+
+```java
+Map<String, List<User>> collectMap = list.stream()
+  .filter(e -> "张三".equals(e.getName()))
+  .collect(Collectors.toList());
 ```
 
 ## List&lt;Pojo&gt;分组
 
 ```java
 Map<String, List<User>> collectMap = list.stream()
-.collect(
-  Collectors.groupingBy(User::getGender)
-  );
+  .collect(Collectors.groupingBy(User::getGender));
 ```
 
 ## List&lt;Pojo&gt;去重
@@ -42,13 +37,16 @@ Map<String, List<User>> collectMap = list.stream()
 - 根据 1 个字段去重
 
 ```java
-List<User> list = userList.stream().collect(
-  Collectors.collectingAndThen(
-    Collectors.toCollection(
-      () -> new TreeSet<>(
-        Comparator.comparing(User::getName)
-      )
-    ), ArrayList::new));
+List<User> list = userList.stream()
+  .collect(
+    Collectors.collectingAndThen(
+      Collectors.toCollection(
+        () -> new TreeSet<>(
+          Comparator.comparing(User::getName)
+        )
+      ), ArrayList::new
+    )
+  );
 ```
 
 - 根据多个字段去重
