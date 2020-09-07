@@ -29,6 +29,10 @@ module.exports = {
                 link: '/系统架构设计师/'
             },
             {
+                text: '网络安全',
+                link: '/网络安全/'
+            },
+            {
                 text: '杂项',
                 link: '/items/'
             },
@@ -87,15 +91,21 @@ module.exports = {
             '/系统架构设计师/': [{
                 title: '计算机与网络基础知识',
                 collapsable: false,
-                // children: [{
-                //         title: 'Stream 详解',
-                //         path: '/java/stream/stream'
-                //     },
-                //     {
-                //         title: '常用 Stream',
-                //         path: '/java/stream/stream_commonly'
-                //     }
-                // ]
+                children: [{
+                    title: '操作系统基础知识',
+                    path: '/系统架构设计师/计算机与网络基础知识/操作系统基础知识'
+                }]
+            }],
+            '/网络安全/': [{
+                title: '网络安全',
+                collapsable: false,
+                children: [{
+                    title: '网络安全知识',
+                    path: '/网络安全/网络安全知识'
+                }, {
+                    title: '网络攻击与防御',
+                    path: '/网络安全/网络攻击与防御'
+                }]
             }],
             '/items/': [{
                     title: 'Markdown',
