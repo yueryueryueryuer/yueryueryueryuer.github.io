@@ -2,8 +2,8 @@
 sidebarDepth: 0
 ---
 
-# Overview
+# 杂项
 
-::: tip 提示
+::: tip 说明
 杂项
 :::

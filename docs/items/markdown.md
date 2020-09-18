@@ -1,11 +1,5 @@
 # Markdown 语法
 
-## 目录
-
-```markdown
-[TOC]
-```
-
 ## 标题
 
 ```markdown

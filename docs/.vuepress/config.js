@@ -10,6 +10,7 @@ module.exports = {
     description: '个人小站',
     port: '8080',
     themeConfig: {
+        sidebarDepth: 2,
         logo: '/img/logo.png',
         lastUpdated: '上次更新',
         nav: [{
@@ -34,7 +35,29 @@ module.exports = {
             },
             {
                 text: '杂项',
-                link: '/items/'
+                ariaLabel: 'Language Menu',
+                items: [{
+                        text: 'Emoji',
+                        link: '/items/emoji/'
+                    },
+                    {
+                        text: 'Markdown',
+                        link: '/items/markdown/'
+                    },
+                    {
+                        text: '常用对照表',
+                        items: [{
+                            text: 'Html 常用字符转义',
+                            link: '/items/compare/compare_html'
+                        }, {
+                            text: 'Mybatis 转义',
+                            link: '/items/compare/compare_mybatis'
+                        }, {
+                            text: 'RGB 颜色对照',
+                            link: '/items/compare/compare_rgb'
+                        }]
+                    }
+                ]
             },
             {
                 text: 'GitHub',
@@ -82,19 +105,21 @@ module.exports = {
                 {
                     title: '常用命令',
                     collapsable: false,
-                    children: [{
-                        title: 'Base64 转码',
-                        path: '/linux/base64'
-                    }]
+                    path: '/linux/command'
                 }
             ],
             '/系统架构设计师/': [{
-                title: '计算机与网络基础知识',
+                title: '操作系统',
                 collapsable: false,
                 children: [{
-                    title: '操作系统基础知识',
-                    path: '/系统架构设计师/计算机与网络基础知识/操作系统基础知识'
-                }]
+                        title: '操作系统的类型与结构',
+                        path: '/系统架构设计师/操作系统/操作系统的类型与结构'
+                    },
+                    {
+                        title: '操作系统基本原理',
+                        path: '/系统架构设计师/操作系统/操作系统基本原理'
+                    }
+                ]
             }],
             '/网络安全/': [{
                 title: '网络安全',
@@ -105,35 +130,35 @@ module.exports = {
                 }, {
                     title: '网络攻击与防御',
                     path: '/网络安全/网络攻击与防御'
+                }, {
+                    title: '信息安全',
+                    path: '/网络安全/信息安全'
                 }]
             }],
             '/items/': [{
-                    title: 'Markdown',
-                    collapsable: false,
-                    path: '/items/markdown'
-                },
-                {
-                    title: 'Emoji',
-                    collapsable: false,
-                    path: '/items/emoji'
-                },
-                {
-                    title: '常用对照表',
-                    collapsable: false,
-                    children: [{
-                            title: 'Html 常用字符转义',
-                            path: '/items/compare/compare_html'
-                        }, {
-                            title: 'Mybatis 转义',
-                            path: '/items/compare/compare_mybatis'
-                        }, {
-                            title: 'RGB 颜色对照',
-                            path: '/items/compare/compare_rgb'
-                        },
+                title: 'Emoji',
+                collapsable: false,
+                path: '/items/emoji'
+            }, {
+                title: 'Markdown',
+                collapsable: false,
+                path: '/items/markdown'
+            }, {
+                title: '常用对照表',
+                collapsable: false,
+                children: [{
+                        title: 'Html 常用字符转义',
+                        path: '/items/compare/compare_html'
+                    }, {
+                        title: 'Mybatis 转义',
+                        path: '/items/compare/compare_mybatis'
+                    }, {
+                        title: 'RGB 颜色对照',
+                        path: '/items/compare/compare_rgb'
+                    },
 
-                    ]
-                }
-            ],
+                ]
+            }],
         }
     }
 }
