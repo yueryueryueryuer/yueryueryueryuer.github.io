@@ -26,6 +26,13 @@ module.exports = {
                 link: '/linux/'
             },
             {
+                text: '技术栈',
+                items: [{
+                    text: 'Docker',
+                    link: '/stack/docker/'
+                }]
+            },
+            {
                 text: '系统架构设计师',
                 link: '/系统架构设计师/'
             },
@@ -35,7 +42,6 @@ module.exports = {
             },
             {
                 text: '杂项',
-                ariaLabel: 'Language Menu',
                 items: [{
                         text: 'Emoji',
                         link: '/items/emoji/'
@@ -94,18 +100,28 @@ module.exports = {
             ],
             '/golang/': [{
                 title: 'Golang 学习路线',
-                collapsable: false,
                 path: '/golang/learning'
             }],
             '/linux/': [{
                     title: '文件操作',
-                    collapsable: false,
                     path: '/linux/disk'
                 },
                 {
                     title: '常用命令',
-                    collapsable: false,
                     path: '/linux/command'
+                }
+            ],
+            '/stack/docker/': [{
+                    title: 'Docker 安装',
+                    path: '/stack/docker/docker_install'
+                },
+                {
+                    title: 'Docker 常用命令',
+                    path: '/stack/docker/docker_use'
+                },
+                {
+                    title: 'Docker 安装 MySQL 5.7',
+                    path: '/stack/docker/docker_mysql5.7'
                 }
             ],
             '/系统架构设计师/': [{
@@ -137,11 +153,9 @@ module.exports = {
             }],
             '/items/': [{
                 title: 'Emoji',
-                collapsable: false,
                 path: '/items/emoji'
             }, {
                 title: 'Markdown',
-                collapsable: false,
                 path: '/items/markdown'
             }, {
                 title: '常用对照表',
