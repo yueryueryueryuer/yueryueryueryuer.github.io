@@ -4,10 +4,9 @@ node_js:
 before_install:
   - export TZ='Asia/Shanghai' # 设置时区
 install:
-  - npm i yarn -g
-  - yarn global add vuepress
+  - yarn install # npm ci
 script:
-  - yarn build # 执行命令
+  - yarn docs:build # npm run docs:build
 deploy:
   provider: pages
   skip_cleanup: true
