@@ -38,7 +38,15 @@ module.exports = {
             },
             {
                 text: '网络安全',
-                link: '/网络安全/'
+                items: [{
+                        text: '网络安全知识',
+                        link: '/网络安全/网络安全知识/网络安全基础知识'
+                    },
+                    {
+                        text: 'CTF',
+                        link: '/网络安全/ctf/kali'
+                    }
+                ]
             },
             {
                 text: '杂项',
@@ -136,20 +144,65 @@ module.exports = {
                         path: '/系统架构设计师/操作系统/操作系统基本原理'
                     }
                 ]
+            }, {
+                title: '开发方法',
+                collapsable: false,
+                children: [{
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/软件生命周期'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/软件开发模型'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/统一过程'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/敏捷方法'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/软件重用'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/基于架构的软件设计'
+                    },
+                    {
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/形式化方法'
+                    }
+                ]
             }],
             '/网络安全/': [{
                 title: '网络安全',
                 collapsable: false,
                 children: [{
                     title: '网络安全知识',
-                    path: '/网络安全/网络安全知识'
+                    path: '/网络安全/网络安全知识/网络安全基础知识'
                 }, {
                     title: '网络攻击与防御',
-                    path: '/网络安全/网络攻击与防御'
+                    path: '/网络安全/网络安全知识/网络攻击与防御'
                 }, {
                     title: '信息安全',
-                    path: '/网络安全/信息安全'
+                    path: '/网络安全/网络安全知识/信息安全'
                 }]
+            }, {
+                title: 'CTF',
+                collapsable: false,
+                children: [
+                    //     {
+                    //     title: 'CTF 基础知识',
+                    //     path: '/网络安全/ctf/ctf基础知识'
+                    // }, 
+                    {
+                        title: 'Parallels Desktop 安装 kali 和基础配置',
+                        path: '/网络安全/ctf/kali'
+                    }
+                ]
             }],
             '/items/': [{
                 title: 'Emoji',
