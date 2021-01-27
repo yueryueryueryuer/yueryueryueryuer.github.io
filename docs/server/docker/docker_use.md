@@ -205,3 +205,7 @@ docker exec -t -i edison /bin/bash
 ```bash
 docker exec -it [container] /bin/bash
 ```
+
+```bash
+docker cp dingtalk-work-message:/dingTalkWorkMessageLog/dingTalkWorkMessage.2021-01-11.log /home/zgyxapp/
+```

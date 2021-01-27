@@ -1,35 +1,71 @@
+const moment = require('moment');
 module.exports = {
     base: '/my-blog/',
     title: 'Learning',
     head: [
-        ['link', {
-            rel: 'icon',
-            href: '/favicon.ico'
-        }]
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'apple-touch-icon', href: '/icons/192.png' }],
+        ['link', { rel: 'mask-icon', href: '/icons/logo.svg', color: '#3eaf7c' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/icons/144.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     description: '个人小站',
     port: '8080',
+    // 插件
+    plugins: {
+        // 时间戳格式化
+        '@vuepress/last-updated': {
+            transformer: (timestamp) => moment(timestamp).format("YYYY-MM-DD HH:mm:ss")
+        },
+        // 返回顶部
+        '@vuepress/back-to-top': true,
+        // 谷歌分析
+        '@vuepress/google-analytics': {
+            'ga': 'G-28BLER10Z4'
+        },
+        // 图片放大
+        '@vuepress/medium-zoom': {
+            selector: 'img'
+        },
+        // pwa
+        '@vuepress/pwa': {
+            serviceWorker: true,
+            updatePopup: {
+                message: "发现新内容可用",
+                buttonText: "刷新"
+            }
+        }
+    },
     themeConfig: {
         sidebarDepth: 2,
         logo: '/img/logo.png',
         lastUpdated: '上次更新',
-        nav: [{
-                text: 'Java',
-                link: '/java/'
-            },
+        nav: [
             {
-                text: 'Golang',
-                link: '/golang/'
-            },
-            {
-                text: 'Linux',
-                link: '/linux/'
-            },
-            {
-                text: '技术栈',
+                text: '服务端',
                 items: [{
+                    text: 'Java',
+                    link: '/server/java/'
+                }, {
+                    text: 'Golang',
+                    link: '/server/golang/'
+                }, {
+                    text: 'Linux',
+                    link: '/server/linux/'
+                }, {
                     text: 'Docker',
-                    link: '/stack/docker/'
+                    link: '/server/docker/'
+                }]
+            },
+            {
+                text: '大前端',
+                items: [{
+                    text: 'npm 与 yarn',
+                    link: '/front/npm_and_yarn/'
                 }]
             },
             {
@@ -39,46 +75,46 @@ module.exports = {
             {
                 text: '网络安全',
                 items: [{
-                        text: '网络安全知识',
-                        link: '/网络安全/网络安全知识/网络安全基础知识'
-                    },
-                    {
-                        text: 'CTF',
-                        link: '/网络安全/ctf/kali'
-                    }
+                    text: '网络安全知识',
+                    link: '/网络安全/网络安全知识/网络安全基础知识'
+                },
+                {
+                    text: 'CTF',
+                    link: '/网络安全/ctf/kali'
+                }
                 ]
             },
             {
                 text: '杂项',
                 items: [{
-                        text: 'Emoji',
-                        link: '/items/emoji/'
-                    },
-                    {
-                        text: 'Markdown',
-                        link: '/items/markdown/'
-                    },
-                    {
-                        text: 'Mac Time Machine',
-                        link: '/items/mac_timemachine/'
-                    },
-                    {
-                        text: '奇怪问题',
-                        link: '/items/magic_problem/'
-                    },
-                    {
-                        text: '常用对照表',
-                        items: [{
-                            text: 'Html 常用字符转义',
-                            link: '/items/compare/compare_html'
-                        }, {
-                            text: 'Mybatis 转义',
-                            link: '/items/compare/compare_mybatis'
-                        }, {
-                            text: 'RGB 颜色对照',
-                            link: '/items/compare/compare_rgb'
-                        }]
-                    }
+                    text: 'Emoji',
+                    link: '/items/emoji/'
+                },
+                {
+                    text: 'Markdown',
+                    link: '/items/markdown/'
+                },
+                {
+                    text: 'Mac Time Machine',
+                    link: '/items/mac_timemachine/'
+                },
+                {
+                    text: '奇怪问题',
+                    link: '/items/magic_problem/'
+                },
+                {
+                    text: '常用对照表',
+                    items: [{
+                        text: 'Html 常用字符转义',
+                        link: '/items/compare/compare_html'
+                    }, {
+                        text: 'Mybatis 转义',
+                        link: '/items/compare/compare_mybatis'
+                    }, {
+                        text: 'RGB 颜色对照',
+                        link: '/items/compare/compare_rgb'
+                    }]
+                }
                 ]
             },
             {
@@ -87,62 +123,62 @@ module.exports = {
             },
         ],
         sidebar: {
-            '/java/': [{
-                    title: 'Stream',
-                    collapsable: false,
-                    children: [{
-                            title: 'Stream 详解',
-                            path: '/java/stream/stream'
-                        },
-                        {
-                            title: '常用 Stream',
-                            path: '/java/stream/stream_commonly'
-                        }
-                    ]
+            '/server/java/': [{
+                title: 'Stream',
+                collapsable: false,
+                children: [{
+                    title: 'Stream 详解',
+                    path: '/server/java/stream/stream'
                 },
                 {
-                    title: 'Optional',
-                    collapsable: false,
-                    children: [{
-                            title: 'Optional 详解',
-                            path: '/java/optional/optional'
-                        },
-                        {
-                            title: '常用 Optional',
-                            path: '/java/optional/optional_commonly'
-                        }
-                    ]
+                    title: '常用 Stream',
+                    path: '/server/java/stream/stream_commonly'
                 }
+                ]
+            },
+            {
+                title: 'Optional',
+                collapsable: false,
+                children: [{
+                    title: 'Optional 详解',
+                    path: '/server/java/optional/optional'
+                },
+                {
+                    title: '常用 Optional',
+                    path: '/server/java/optional/optional_commonly'
+                }
+                ]
+            }
             ],
-            '/golang/': [{
+            '/server/golang/': [{
                 title: 'Golang 学习路线',
-                path: '/golang/learning'
+                path: '/server/golang/learning'
             }],
-            '/linux/': [{
-                    title: '文件操作',
-                    path: '/linux/disk'
-                },
-                {
-                    title: '常用命令',
-                    path: '/linux/command'
-                },
-                {
-                    title: 'firewall',
-                    path: '/linux/firewall'
-                }
+            '/server/linux/': [{
+                title: '文件操作',
+                path: '/server/linux/disk'
+            },
+            {
+                title: '常用命令',
+                path: '/server/linux/command'
+            },
+            {
+                title: 'firewall',
+                path: '/server/linux/firewall'
+            }
             ],
-            '/stack/docker/': [{
-                    title: 'Docker 安装',
-                    path: '/stack/docker/docker_install'
-                },
-                {
-                    title: 'Docker 常用命令',
-                    path: '/stack/docker/docker_use'
-                },
-                {
-                    title: 'Docker 安装 MySQL 5.7',
-                    path: '/stack/docker/docker_mysql5.7'
-                }
+            '/server/docker/': [{
+                title: 'Docker 安装',
+                path: '/server/docker/docker_install'
+            },
+            {
+                title: 'Docker 常用命令',
+                path: '/server/docker/docker_use'
+            },
+            {
+                title: 'Docker 安装 MySQL 5.7',
+                path: '/server/docker/docker_mysql5.7'
+            }
             ],
             '/系统架构设计师/': [
                 // {
@@ -155,13 +191,13 @@ module.exports = {
                 {
                     title: '操作系统',
                     children: [{
-                            title: '操作系统的类型与结构',
-                            path: '/系统架构设计师/操作系统/操作系统的类型与结构'
-                        },
-                        {
-                            title: '操作系统基本原理',
-                            path: '/系统架构设计师/操作系统/操作系统基本原理'
-                        }
+                        title: '操作系统的类型与结构',
+                        path: '/系统架构设计师/操作系统/操作系统的类型与结构'
+                    },
+                    {
+                        title: '操作系统基本原理',
+                        path: '/系统架构设计师/操作系统/操作系统基本原理'
+                    }
                     ]
                 },
                 // {
@@ -186,33 +222,33 @@ module.exports = {
                 {
                     title: '开发方法',
                     children: [{
-                            title: '软件生命周期',
-                            path: '/系统架构设计师/开发方法/软件生命周期'
-                        },
-                        {
-                            title: '软件开发模型',
-                            path: '/系统架构设计师/开发方法/软件开发模型'
-                        },
-                        {
-                            title: '统一过程',
-                            path: '/系统架构设计师/开发方法/统一过程'
-                        },
-                        {
-                            title: '敏捷方法',
-                            path: '/系统架构设计师/开发方法/敏捷方法'
-                        },
-                        {
-                            title: '软件重用',
-                            path: '/系统架构设计师/开发方法/软件重用'
-                        },
-                        {
-                            title: '基于架构的软件设计',
-                            path: '/系统架构设计师/开发方法/基于架构的软件设计'
-                        },
-                        {
-                            title: '形式化方法',
-                            path: '/系统架构设计师/开发方法/形式化方法'
-                        }
+                        title: '软件生命周期',
+                        path: '/系统架构设计师/开发方法/软件生命周期'
+                    },
+                    {
+                        title: '软件开发模型',
+                        path: '/系统架构设计师/开发方法/软件开发模型'
+                    },
+                    {
+                        title: '统一过程',
+                        path: '/系统架构设计师/开发方法/统一过程'
+                    },
+                    {
+                        title: '敏捷方法',
+                        path: '/系统架构设计师/开发方法/敏捷方法'
+                    },
+                    {
+                        title: '软件重用',
+                        path: '/系统架构设计师/开发方法/软件重用'
+                    },
+                    {
+                        title: '基于架构的软件设计',
+                        path: '/系统架构设计师/开发方法/基于架构的软件设计'
+                    },
+                    {
+                        title: '形式化方法',
+                        path: '/系统架构设计师/开发方法/形式化方法'
+                    }
                     ]
                 },
                 //  {
@@ -350,15 +386,15 @@ module.exports = {
                 title: '常用对照表',
                 collapsable: false,
                 children: [{
-                        title: 'Html 常用字符转义',
-                        path: '/items/compare/compare_html'
-                    }, {
-                        title: 'Mybatis 转义',
-                        path: '/items/compare/compare_mybatis'
-                    }, {
-                        title: 'RGB 颜色对照',
-                        path: '/items/compare/compare_rgb'
-                    },
+                    title: 'Html 常用字符转义',
+                    path: '/items/compare/compare_html'
+                }, {
+                    title: 'Mybatis 转义',
+                    path: '/items/compare/compare_mybatis'
+                }, {
+                    title: 'RGB 颜色对照',
+                    path: '/items/compare/compare_rgb'
+                },
 
                 ]
             }],
