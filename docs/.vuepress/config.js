@@ -25,7 +25,7 @@ module.exports = {
         '@vuepress/back-to-top': true,
         // 谷歌分析
         '@vuepress/google-analytics': {
-            'ga': 'G-28BLER10Z4'
+            'ga': 'UA-188257966-1'
         },
         // 图片放大
         '@vuepress/medium-zoom': {
