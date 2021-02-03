@@ -62,27 +62,36 @@ module.exports = {
                 }]
             },
             {
-                text: '大前端',
+                text: '前端',
                 items: [{
                     text: 'npm 与 yarn',
                     link: '/front/npm_and_yarn/'
                 }]
             },
             {
-                text: '系统架构设计师',
-                link: '/系统架构设计师/'
+                text: '软考',
+                items: [{
+                    text: '系统架构设计师',
+                    link: '/软考/系统架构设计师/'
+                },
+                {
+                    text: '信息系统项目管理师',
+                    link: '/软考/信息系统项目管理师/'
+                }
+                ]
             },
             {
                 text: '网络安全',
-                items: [{
-                    text: '网络安全知识',
-                    link: '/网络安全/网络安全知识/网络安全基础知识'
-                },
-                {
-                    text: 'CTF',
-                    link: '/网络安全/ctf/kali'
-                }
-                ]
+                link: '/网络安全/网络安全知识/网络安全基础知识'
+                // items: [{
+                //     text: '网络安全知识',
+                //     link: '/网络安全/网络安全知识/网络安全基础知识'
+                // },
+                // {
+                //     text: 'CTF',
+                //     link: '/网络安全/ctf/kali'
+                // }
+                // ]
             },
             {
                 text: '杂项',
@@ -99,10 +108,6 @@ module.exports = {
                     link: '/items/mac_timemachine/'
                 },
                 {
-                    text: '奇怪问题',
-                    link: '/items/magic_problem/'
-                },
-                {
                     text: '常用对照表',
                     items: [{
                         text: 'Html 常用字符转义',
@@ -113,6 +118,13 @@ module.exports = {
                     }, {
                         text: 'RGB 颜色对照',
                         link: '/items/compare/compare_rgb'
+                    }]
+                },
+                {
+                    text: '奇怪问题',
+                    items: [{
+                        text: 'macOS Big Sur L2TP VPN 连不上',
+                        link: '/items/magic_problem/bigsur_l2tp'
                     }]
                 }
                 ]
@@ -180,7 +192,7 @@ module.exports = {
                 path: '/server/docker/docker_mysql5.7'
             }
             ],
-            '/系统架构设计师/': [
+            '/软考/系统架构设计师/': [
                 // {
                 //     title: '计算机组成与体系结构',
                 //     children: [{
@@ -192,11 +204,11 @@ module.exports = {
                     title: '操作系统',
                     children: [{
                         title: '操作系统的类型与结构',
-                        path: '/系统架构设计师/操作系统/操作系统的类型与结构'
+                        path: '/软考/系统架构设计师/操作系统/操作系统的类型与结构'
                     },
                     {
                         title: '操作系统基本原理',
-                        path: '/系统架构设计师/操作系统/操作系统基本原理'
+                        path: '/软考/系统架构设计师/操作系统/操作系统基本原理'
                     }
                     ]
                 },
@@ -204,50 +216,50 @@ module.exports = {
                 //     title: '数据库',
                 //     children: [{
                 //         title: '数据库',
-                //         path: '/系统架构设计师/数据库'
+                //         path: '/软考/系统架构设计师/数据库'
                 //     }]
                 // }, {
                 //     title: '计算机网络',
                 //     children: [{
                 //         title: '计算机网络',
-                //         path: '/系统架构设计师/计算机网络'
+                //         path: '/软考/系统架构设计师/计算机网络'
                 //     }]
                 // }, {
                 //     title: '系统性能与评价',
                 //     children: [{
                 //         title: '系统性能与评价',
-                //         path: '/系统架构设计师/系统性能与评价'
+                //         path: '/软考/系统架构设计师/系统性能与评价'
                 //     }]
                 // }, 
                 {
                     title: '开发方法',
                     children: [{
                         title: '软件生命周期',
-                        path: '/系统架构设计师/开发方法/软件生命周期'
+                        path: '/软考/系统架构设计师/开发方法/软件生命周期'
                     },
                     {
                         title: '软件开发模型',
-                        path: '/系统架构设计师/开发方法/软件开发模型'
+                        path: '/软考/系统架构设计师/开发方法/软件开发模型'
                     },
                     {
                         title: '统一过程',
-                        path: '/系统架构设计师/开发方法/统一过程'
+                        path: '/软考/系统架构设计师/开发方法/统一过程'
                     },
                     {
                         title: '敏捷方法',
-                        path: '/系统架构设计师/开发方法/敏捷方法'
+                        path: '/软考/系统架构设计师/开发方法/敏捷方法'
                     },
                     {
                         title: '软件重用',
-                        path: '/系统架构设计师/开发方法/软件重用'
+                        path: '/软考/系统架构设计师/开发方法/软件重用'
                     },
                     {
                         title: '基于架构的软件设计',
-                        path: '/系统架构设计师/开发方法/基于架构的软件设计'
+                        path: '/软考/系统架构设计师/开发方法/基于架构的软件设计'
                     },
                     {
                         title: '形式化方法',
-                        path: '/系统架构设计师/开发方法/形式化方法'
+                        path: '/软考/系统架构设计师/开发方法/形式化方法'
                     }
                     ]
                 },
@@ -255,97 +267,100 @@ module.exports = {
                 //     title: '系统规划',
                 //     children: [{
                 //         title: '系统规划',
-                //         path: '/系统架构设计师/系统规划'
+                //         path: '/软考/系统架构设计师/系统规划'
                 //     }]
                 // }, {
                 //     title: '系统分析与设计方法',
                 //     children: [{
                 //         title: '系统分析与设计方法',
-                //         path: '/系统架构设计师/系统分析与设计方法'
+                //         path: '/软考/系统架构设计师/系统分析与设计方法'
                 //     }]
                 // }, {
                 //     title: '软件架构设计',
                 //     children: [{
                 //         title: '软件架构设计',
-                //         path: '/系统架构设计师/软件架构设计'
+                //         path: '/软考/系统架构设计师/软件架构设计'
                 //     }]
                 // }, {
                 //     title: '设计模式（23种）',
                 //     children: [{
                 //         title: '设计模式（23种）',
-                //         path: '/系统架构设计师/设计模式（23种）'
+                //         path: '/软考/系统架构设计师/设计模式（23种）'
                 //     }]
                 // }, {
                 //     title: '测试评审方法',
                 //     children: [{
                 //         title: '测试评审方法',
-                //         path: '/系统架构设计师/测试评审方法'
+                //         path: '/软考/系统架构设计师/测试评审方法'
                 //     }]
                 // }, {
                 //     title: '嵌入式系统设计',
                 //     children: [{
                 //         title: '嵌入式系统设计',
-                //         path: '/系统架构设计师/嵌入式系统设计'
+                //         path: '/软考/系统架构设计师/嵌入式系统设计'
                 //     }]
                 // }, {
                 //     title: '开发管理',
                 //     children: [{
                 //         title: '开发管理',
-                //         path: '/系统架构设计师/开发管理'
+                //         path: '/软考/系统架构设计师/开发管理'
                 //     }]
                 // }, {
                 //     title: '信息系统',
                 //     children: [{
                 //         title: '信息系统',
-                //         path: '/系统架构设计师/信息系统'
+                //         path: '/软考/系统架构设计师/信息系统'
                 //     }]
                 // }, {
                 //     title: '基于中间件的开发',
                 //     children: [{
                 //         title: '基于中间件的开发',
-                //         path: '/系统架构设计师/基于中间件的开发'
+                //         path: '/软考/系统架构设计师/基于中间件的开发'
                 //     }]
                 // }, {
                 //     title: '系统安全',
                 //     children: [{
                 //         title: '系统安全',
-                //         path: '/系统架构设计师/系统安全'
+                //         path: '/软考/系统架构设计师/系统安全'
                 //     }]
                 // }, {
                 //     title: '系统的可靠性分析与设计',
                 //     children: [{
                 //         title: '系统的可靠性分析与设计',
-                //         path: '/系统架构设计师/系统的可靠性分析与设计'
+                //         path: '/软考/系统架构设计师/系统的可靠性分析与设计'
                 //     }]
                 // }, {
                 //     title: '软件知识产权与法律法规',
                 //     children: [{
                 //         title: '软件知识产权与法律法规',
-                //         path: '/系统架构设计师/软件知识产权与法律法规'
+                //         path: '/软考/系统架构设计师/软件知识产权与法律法规'
                 //     }]
                 // }, {
                 //     title: '标准化知识',
                 //     children: [{
                 //         title: '标准化知识',
-                //         path: '/系统架构设计师/标准化知识'
+                //         path: '/软考/系统架构设计师/标准化知识'
                 //     }]
                 // }, {
                 //     title: '应用数学',
                 //     children: [{
                 //         title: '应用数学',
-                //         path: '/系统架构设计师/应用数学'
+                //         path: '/软考/系统架构设计师/应用数学'
                 //     }]
                 // }, {
                 //     title: '虚拟化、云计算、物联网',
                 //     children: [{
                 //         title: '虚拟化、云计算、物联网',
-                //         path: '/系统架构设计师/虚拟化、云计算、物联网'
+                //         path: '/软考/系统架构设计师/虚拟化、云计算、物联网'
                 //     }]
                 // }
             ],
+            '/软考/信息系统项目管理师/': [
+
+            ],
             '/网络安全/': [{
-                title: '网络安全',
-                collapsable: false,
+                title: '网络安全知识',
+                // collapsable: false,
                 children: [{
                     title: '网络安全知识',
                     path: '/网络安全/网络安全知识/网络安全基础知识'
@@ -358,17 +373,15 @@ module.exports = {
                 }]
             }, {
                 title: 'CTF',
-                collapsable: false,
-                children: [
-                    //     {
-                    //     title: 'CTF 基础知识',
-                    //     path: '/网络安全/ctf/ctf基础知识'
-                    // }, 
-                    {
-                        title: 'Parallels Desktop 安装 kali 和基础配置',
-                        path: '/网络安全/ctf/kali'
-                    }
-                ]
+                // collapsable: false,
+                children: [{
+                    title: 'CTF 基础知识',
+                    path: '/网络安全/ctf/ctf基础知识'
+                },
+                {
+                    title: 'Parallels Desktop 安装 kali 和基础配置',
+                    path: '/网络安全/ctf/kali'
+                }]
             }],
             '/items/': [{
                 title: 'Emoji',
@@ -379,9 +392,6 @@ module.exports = {
             }, {
                 title: 'mac Time Machine',
                 path: '/items/mac_timemachine'
-            }, {
-                title: '奇怪问题',
-                path: '/items/magic_problem'
             }, {
                 title: '常用对照表',
                 collapsable: false,
@@ -397,6 +407,13 @@ module.exports = {
                 },
 
                 ]
+            }, {
+                title: '奇怪问题',
+                collapsable: false,
+                children: [{
+                    title: 'macOS Big Sur L2TP VPN 连不上',
+                    path: '/items/magic_problem/bigsur_l2tp'
+                }]
             }],
         }
     }
