@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f12c82e0ad291c433382bc070c1668cf"
+    "revision": "678d81f856dd92410ede1113c5aa8389"
   },
   {
     "url": "assets/css/0.styles.e223730f.css",
@@ -58,7 +58,7 @@ self.__precacheManifest = [
     "revision": "11d05bd6e34686037a11a5f6142a4a57"
   },
   {
-    "url": "assets/js/15.8bb10096.js",
+    "url": "assets/js/15.c18e04ac.js",
     "revision": "7b669b74b7c747dbc67211f6fc879782"
   },
   {
@@ -142,80 +142,84 @@ self.__precacheManifest = [
     "revision": "87758b804b35d38c03ea84bf3b257af8"
   },
   {
-    "url": "assets/js/34.b620bdf3.js",
-    "revision": "75b78669aecf52c9820d8d96bee49100"
+    "url": "assets/js/34.9e218d44.js",
+    "revision": "d6b8494fc095c220cc76938ebe7fb9e4"
   },
   {
-    "url": "assets/js/35.5af5003d.js",
-    "revision": "5506f7ba73a26c94295321805e8ba0a9"
+    "url": "assets/js/35.a756301c.js",
+    "revision": "e4e6d7830ac165c8bd7f23c8fc2c5aa5"
   },
   {
-    "url": "assets/js/36.68e64440.js",
-    "revision": "b3720f7166f52ab11ae88838689c5a35"
+    "url": "assets/js/36.8301d9ab.js",
+    "revision": "2f2e3071566974128151df03276593fa"
   },
   {
-    "url": "assets/js/37.6f35dd65.js",
-    "revision": "61de620876cd119b22e663ba83ed0f9c"
+    "url": "assets/js/37.0102f04c.js",
+    "revision": "dec166afbc3889e6240cc29985e89a95"
   },
   {
-    "url": "assets/js/38.488ea8d7.js",
-    "revision": "e292c4bb1217da8cf220a72188ae5b83"
+    "url": "assets/js/38.bd4625a2.js",
+    "revision": "7e8678d88c068964a6a27c177d50bee8"
   },
   {
-    "url": "assets/js/39.7f021fb0.js",
-    "revision": "a0cd8c975257f50e64fc1f01753b721e"
+    "url": "assets/js/39.7045c3a1.js",
+    "revision": "ce148017bc4bb82d1290a72f3196d0b3"
   },
   {
-    "url": "assets/js/4.ccef0540.js",
-    "revision": "554ef5657a28dc08b9bfc21ccd5bf83d"
+    "url": "assets/js/4.07154b0c.js",
+    "revision": "8e56962c2935c890b405d8beb6a23134"
   },
   {
-    "url": "assets/js/40.840aa6e1.js",
-    "revision": "ed1a6c0d984c0b3a43e3371e09552595"
+    "url": "assets/js/40.45f82cba.js",
+    "revision": "020053dc4ee663c33ea7fc5e9ee4d835"
   },
   {
-    "url": "assets/js/41.61b3b4c9.js",
-    "revision": "b053cae02ede02a8cf19f796e9590e11"
+    "url": "assets/js/41.a5ebee49.js",
+    "revision": "6d641625ad5e340263f263a18f530534"
   },
   {
-    "url": "assets/js/42.366290ba.js",
-    "revision": "733a43e8ed95efa2b512eb0ba545f50a"
+    "url": "assets/js/42.5ab2b19e.js",
+    "revision": "bbcd5a9fcd57bc8e81a7b6359e0f66bc"
   },
   {
-    "url": "assets/js/43.c9fe4347.js",
-    "revision": "5c47a93eb8a6d2d692c81c553be227ef"
+    "url": "assets/js/43.ca6f2dbb.js",
+    "revision": "4b964068429002217b5e126fe1757619"
   },
   {
-    "url": "assets/js/44.130dd179.js",
-    "revision": "ec913f03c76a8037414fd53bf1fd73c5"
+    "url": "assets/js/44.45f14a4b.js",
+    "revision": "4845e3e303ba918bddbb4df3e087c203"
   },
   {
-    "url": "assets/js/45.9fd46c4f.js",
-    "revision": "ef430d607c3877848cc6393358bf5cda"
+    "url": "assets/js/45.99fc5427.js",
+    "revision": "a2df8c2afffc37063b58adf68133de62"
   },
   {
-    "url": "assets/js/46.f63298ef.js",
-    "revision": "3960b558f5b07e5f8f1e60921f1263ea"
+    "url": "assets/js/46.002a393d.js",
+    "revision": "e09b8311702a21cc0262c5f77ae38869"
   },
   {
-    "url": "assets/js/47.ac8a0f14.js",
-    "revision": "696aaceaa273a286f37b26f533407f91"
+    "url": "assets/js/47.db778dec.js",
+    "revision": "f15a5191ff28b18f6da072d1df6b7fbb"
   },
   {
-    "url": "assets/js/48.23b63265.js",
-    "revision": "840bce4573344f19ceeeb94f973a1fec"
+    "url": "assets/js/48.9ef52d72.js",
+    "revision": "d67f044f62a33946fa2719ef9adcb2fa"
   },
   {
-    "url": "assets/js/49.c5976e82.js",
-    "revision": "736edf31485993df7289adfaba87382f"
+    "url": "assets/js/49.e5b9a982.js",
+    "revision": "ebf641569d4f6d88248748a4a0677563"
   },
   {
     "url": "assets/js/5.e7b64380.js",
     "revision": "3a88cb670fc8ff91980a9ce0bd7f6ceb"
   },
   {
-    "url": "assets/js/50.5582f243.js",
-    "revision": "57a35a108cd68fcd13d0246efbff35c5"
+    "url": "assets/js/50.6bb92218.js",
+    "revision": "42e868ed13920b2687714acf69b2cec7"
+  },
+  {
+    "url": "assets/js/51.e98a18fd.js",
+    "revision": "3ad9cee60e7f0ec3218a500c9f9d2877"
   },
   {
     "url": "assets/js/6.ba32861a.js",
@@ -234,12 +238,12 @@ self.__precacheManifest = [
     "revision": "93459245a560459f265a943ef3f1b1e3"
   },
   {
-    "url": "assets/js/app.b8f5e6bd.js",
-    "revision": "3a59c5fd5e8fdb0e4ee3c1c61b677add"
+    "url": "assets/js/app.830c5deb.js",
+    "revision": "6b4ac153a4f2c9e345a327294cf07154"
   },
   {
     "url": "front/npm_and_yarn.html",
-    "revision": "197a959d4362e6126e2c6a466538f5b7"
+    "revision": "5777de6f5df68a5f90999b105a84257e"
   },
   {
     "url": "icons/128.png",
@@ -323,175 +327,179 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "dd62ca52267159b9934207772d844589"
+    "revision": "fddc1d402fcac250bfe62cd67556b391"
   },
   {
     "url": "items/compare/compare_html.html",
-    "revision": "1ad878f38b10e625220eeb161c2c3a31"
+    "revision": "e61aeec0a390da2ca806971abc296f1c"
   },
   {
     "url": "items/compare/compare_mybatis.html",
-    "revision": "b4a7b2381b4fb9b68e5aca10b18093ad"
+    "revision": "301647e083146635cdadd5325e4eeece"
   },
   {
     "url": "items/compare/compare_rgb.html",
-    "revision": "7a0653dd5baa71704e84434a6b63debf"
+    "revision": "97ad9c8f53b619265bfe671211b52630"
   },
   {
     "url": "items/development.html",
-    "revision": "b8ef3864d1a2dfc4ccce96402a569d64"
+    "revision": "a25211cc27f9dbfcaf6f8ba9aa360b4c"
   },
   {
     "url": "items/emoji.html",
-    "revision": "0195e474c8ab60450d96038cb91a8b06"
+    "revision": "12d1848e54b0a6d0c353c804d5db9293"
   },
   {
     "url": "items/index.html",
-    "revision": "18965a6cda9c80395d52d73881f8c744"
+    "revision": "0de98bb668b530275311d4684d9f1ab8"
   },
   {
     "url": "items/mac_timemachine.html",
-    "revision": "b4a98b15dbd9cd0677ff70206f9089cc"
+    "revision": "5362ca6e81cc08cc2ba3b6c8771c03e9"
   },
   {
-    "url": "items/magic_problem.html",
-    "revision": "059ae8c8e745a3fcf4a69593e473649b"
+    "url": "items/magic_problem/bigsur_l2tp.html",
+    "revision": "d90b94412b1659153075beeb33fa964c"
   },
   {
     "url": "items/markdown.html",
-    "revision": "76b669f9d0cf8a1fce9dc23a3c443ea2"
+    "revision": "baf527b7cb088147a7fa7941a1c10726"
   },
   {
     "url": "server/docker/docker_install.html",
-    "revision": "b6c4bad2d39666126f33ce9668c2b032"
+    "revision": "69812b156a3f0dd2de868614b899b3ab"
   },
   {
     "url": "server/docker/docker_mysql5.7.html",
-    "revision": "caf03960babac11cf05b4878b08384c9"
+    "revision": "382173cb8e4955ab52396e8091866c55"
   },
   {
     "url": "server/docker/docker_use.html",
-    "revision": "aaf2505d4bc3438006e9f4fa61715853"
+    "revision": "e6eb49a3e899a95d454d405b22477283"
   },
   {
     "url": "server/docker/index.html",
-    "revision": "c8b2b743c7be5cbf0b92f8bfe5716124"
+    "revision": "0cd71a4773abc73589532f6edd29ff7e"
   },
   {
     "url": "server/golang/index.html",
-    "revision": "70c77a16331579c0a9993bc05f58b1d6"
+    "revision": "84a1960e9b96ed83399e017bca418a35"
   },
   {
     "url": "server/golang/learning.html",
-    "revision": "bca54eb7284796f53cc9cbef237b07cc"
+    "revision": "877358dbaf722cd4c6f398d510d56d72"
   },
   {
     "url": "server/java/index.html",
-    "revision": "4e49f99f203a53d6ccbfd77448f1d717"
+    "revision": "0f200139997c6482b7bc7040c4ad869a"
   },
   {
     "url": "server/java/optional/optional_commonly.html",
-    "revision": "3d4b0c98e48a2c7817380bc9d31c8953"
+    "revision": "bfbb8ca46c4d41c4f6aa2461cf701af8"
   },
   {
     "url": "server/java/optional/optional.html",
-    "revision": "b8de6926544efbe8329ecf924416d5f4"
+    "revision": "7a78ed25d0f8d1eca4514beea1cbe1a5"
   },
   {
     "url": "server/java/stream/stream_commonly.html",
-    "revision": "08f660a96db829e7f7985527b3865c4a"
+    "revision": "d848c60079388c4d3929af3a7a3e737e"
   },
   {
     "url": "server/java/stream/stream.html",
-    "revision": "902b770b16b1da9d23d1680cf48d1553"
+    "revision": "4053f29bf3ce9f09f69156f6edb6749c"
   },
   {
     "url": "server/linux/command.html",
-    "revision": "eb72123c6792992d5496be0573e20df4"
+    "revision": "1fe4afcb6101631aeff9a929605f3e1d"
   },
   {
     "url": "server/linux/disk.html",
-    "revision": "eaeecd8a849d871596196bd8f4cb2dc2"
+    "revision": "7739019f0448245e17e61d6621b85e01"
   },
   {
     "url": "server/linux/firewall.html",
-    "revision": "520eea6193d73149f972b37aa1c7aa43"
+    "revision": "8f6a933dda921c62559a22a4aecb89c8"
   },
   {
     "url": "server/linux/index.html",
-    "revision": "c5e1c1be7a92b1a84013bb40007af66c"
+    "revision": "4f5c7a4192d4a1fce2ffdd73fe839722"
   },
   {
     "url": "server/linux/network.html",
-    "revision": "5e57f0cf796448c8c336015f33e98c42"
+    "revision": "cf33a27b5f87841b0beaee45c8652342"
   },
   {
     "url": "stack/index.html",
-    "revision": "f3a6348c3e5f2841be523f7edab31b0b"
-  },
-  {
-    "url": "系统架构设计师/index.html",
-    "revision": "58e28d897974c0d15c033b89bc49b775"
-  },
-  {
-    "url": "系统架构设计师/开发方法/基于架构的软件设计.html",
-    "revision": "9150cc1699640685227c2b49119fd8dd"
-  },
-  {
-    "url": "系统架构设计师/开发方法/形式化方法.html",
-    "revision": "7fb6be684ce8972fd6546bd2da2528dd"
-  },
-  {
-    "url": "系统架构设计师/开发方法/敏捷方法.html",
-    "revision": "267f3e3ca5f6bca2da7bb5b390c2b904"
-  },
-  {
-    "url": "系统架构设计师/开发方法/统一过程.html",
-    "revision": "80ab25eec9c566cc7a4e875a6f3a5012"
-  },
-  {
-    "url": "系统架构设计师/开发方法/软件开发模型.html",
-    "revision": "88ef2a57ab77beca5f68885bed480f38"
-  },
-  {
-    "url": "系统架构设计师/开发方法/软件生命周期.html",
-    "revision": "99492430cfaf4c2a927e0107c35c47b0"
-  },
-  {
-    "url": "系统架构设计师/开发方法/软件重用.html",
-    "revision": "ab3f4ff4f3d81f278591770e1fb99c36"
-  },
-  {
-    "url": "系统架构设计师/操作系统/操作系统基本原理.html",
-    "revision": "43337c6c185dec5a94ffefdbf5b847e9"
-  },
-  {
-    "url": "系统架构设计师/操作系统/操作系统的类型与结构.html",
-    "revision": "6c01e8874d66acb337f96f4f12030161"
+    "revision": "731c4d81cc53dc1c464adc773341a585"
   },
   {
     "url": "网络安全/ctf/ctf基础知识.html",
-    "revision": "71b885c9b5becc7f66407a27dce6a107"
+    "revision": "135d2689ed0a51f13f583b18341a657e"
   },
   {
     "url": "网络安全/ctf/kali.html",
-    "revision": "a5d6e0e605985126f3ef231256d1d07e"
+    "revision": "362ba8530e522f5fbd099105996f6705"
   },
   {
     "url": "网络安全/index.html",
-    "revision": "3fc19bc9aac248714f9851d27b71854d"
+    "revision": "1f807c390a29ba4c4b4c91af7b4d6b3d"
   },
   {
     "url": "网络安全/网络安全知识/信息安全.html",
-    "revision": "1fa4a8f2064640787cfea49e1fb708b9"
+    "revision": "b05a87453bc0410ca5386cbc8df59f20"
   },
   {
     "url": "网络安全/网络安全知识/网络安全基础知识.html",
-    "revision": "46a59352a6c30009769dacf6746e5914"
+    "revision": "9869448e9f09bfffe76dfac297723407"
   },
   {
     "url": "网络安全/网络安全知识/网络攻击与防御.html",
-    "revision": "7a72e5ea8ee28cec84b1a54b40b3a95d"
+    "revision": "95a4f8144fa4d85ba7203cb1eb4eaf8b"
+  },
+  {
+    "url": "软考/信息系统项目管理师/index.html",
+    "revision": "49a083b0d5a7274e579d6173c019a70c"
+  },
+  {
+    "url": "软考/系统架构设计师/index.html",
+    "revision": "effaa20f941f31cc177ca4451d9f01bc"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/基于架构的软件设计.html",
+    "revision": "17560adf7ed9e0abfdfd81fbe87744f8"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/形式化方法.html",
+    "revision": "1a32095ed1d09d999d155b92e5e98233"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/敏捷方法.html",
+    "revision": "575be50e4de9d1745c161dce1d134069"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/统一过程.html",
+    "revision": "fc5c693b95ac9bf0325435c21accfd0a"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/软件开发模型.html",
+    "revision": "ea775801b7a94ea74f6e45ddb917b6e1"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/软件生命周期.html",
+    "revision": "692dd13fa8f88b0b3a555b4ed4c03ef3"
+  },
+  {
+    "url": "软考/系统架构设计师/开发方法/软件重用.html",
+    "revision": "6d294df59b01ce8a166cc2ed723b9dfd"
+  },
+  {
+    "url": "软考/系统架构设计师/操作系统/操作系统基本原理.html",
+    "revision": "4a155888f14ff3f782367861e782d422"
+  },
+  {
+    "url": "软考/系统架构设计师/操作系统/操作系统的类型与结构.html",
+    "revision": "250405f3500db107dcbda4bcbae3d0dd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
