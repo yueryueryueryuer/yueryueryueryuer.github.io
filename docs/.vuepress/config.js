@@ -1,6 +1,6 @@
 const moment = require('moment');
 module.exports = {
-    base: '/my-blog/',
+    base: '/',
     title: 'Learning',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -119,7 +119,7 @@ module.exports = {
             },
             {
                 text: 'GitHub',
-                link: 'https://github.com/yueryueryueryuer/my-blog'
+                link: 'https://github.com/yueryueryueryuer/yueryueryueryuer.github.io'
             },
         ],
         sidebar: {
