@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>常用 Optional | Learning</title>
+    <meta name="description" content="个人小站">
+    <meta name="generator" content="VuePress 1.3.0">
+    <link rel="icon" href="/favicon.ico">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/192.png">
+  <link rel="mask-icon" href="/icons/logo.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.854d9a62.css" as="style"><link rel="preload" href="/assets/js/app.da0b4243.js" as="script"><link rel="preload" href="/assets/js/2.2ce72ce0.js" as="script"><link rel="preload" href="/assets/js/26.0b1a6351.js" as="script"><link rel="preload" href="/assets/js/3.2b87fdfa.js" as="script"><link rel="prefetch" href="/assets/js/10.b8bdb1b6.js"><link rel="prefetch" href="/assets/js/11.ca26ac69.js"><link rel="prefetch" href="/assets/js/12.7d116de9.js"><link rel="prefetch" href="/assets/js/13.d293981f.js"><link rel="prefetch" href="/assets/js/14.1d2563d7.js"><link rel="prefetch" href="/assets/js/15.395eb3b5.js"><link rel="prefetch" href="/assets/js/16.00ab602e.js"><link rel="prefetch" href="/assets/js/17.0f6ee311.js"><link rel="prefetch" href="/assets/js/18.9689f9c4.js"><link rel="prefetch" href="/assets/js/19.d8ab1b75.js"><link rel="prefetch" href="/assets/js/20.afc70309.js"><link rel="prefetch" href="/assets/js/21.65348a06.js"><link rel="prefetch" href="/assets/js/22.325f5dac.js"><link rel="prefetch" href="/assets/js/23.728db6df.js"><link rel="prefetch" href="/assets/js/24.90cfd1a8.js"><link rel="prefetch" href="/assets/js/25.e5a59868.js"><link rel="prefetch" href="/assets/js/27.0c1a22e1.js"><link rel="prefetch" href="/assets/js/28.24f1f935.js"><link rel="prefetch" href="/assets/js/29.c8e2b180.js"><link rel="prefetch" href="/assets/js/30.4f78c2c6.js"><link rel="prefetch" href="/assets/js/31.d15da23e.js"><link rel="prefetch" href="/assets/js/32.71100f08.js"><link rel="prefetch" href="/assets/js/33.652025c1.js"><link rel="prefetch" href="/assets/js/34.1044114e.js"><link rel="prefetch" href="/assets/js/35.9caa62d3.js"><link rel="prefetch" href="/assets/js/36.84fd031e.js"><link rel="prefetch" href="/assets/js/37.7f53ed3a.js"><link rel="prefetch" href="/assets/js/38.9e970519.js"><link rel="prefetch" href="/assets/js/39.321366ae.js"><link rel="prefetch" href="/assets/js/4.fe015733.js"><link rel="prefetch" href="/assets/js/40.4290e9b8.js"><link rel="prefetch" href="/assets/js/41.05b297ac.js"><link rel="prefetch" href="/assets/js/42.1f6cdfaa.js"><link rel="prefetch" href="/assets/js/43.96ec85ed.js"><link rel="prefetch" href="/assets/js/44.18294f12.js"><link rel="prefetch" href="/assets/js/45.e37971ae.js"><link rel="prefetch" href="/assets/js/46.8bb0ae1f.js"><link rel="prefetch" href="/assets/js/47.cd9bb279.js"><link rel="prefetch" href="/assets/js/48.2c994fe8.js"><link rel="prefetch" href="/assets/js/49.5b604b45.js"><link rel="prefetch" href="/assets/js/5.4f2e9337.js"><link rel="prefetch" href="/assets/js/50.b4f5fc9a.js"><link rel="prefetch" href="/assets/js/51.f701473f.js"><link rel="prefetch" href="/assets/js/6.4e59c99f.js"><link rel="prefetch" href="/assets/js/7.8378210a.js"><link rel="prefetch" href="/assets/js/8.490f3f56.js"><link rel="prefetch" href="/assets/js/9.fb0182c2.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.854d9a62.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="Learning" class="logo"> <span class="site-name can-hide">Learning</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务端" class="dropdown-title"><span class="title">服务端</span> <span class="arrow down"></span></button> <button type="button" aria-label="服务端" class="mobile-dropdown-title"><span class="title">服务端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/server/java/" class="nav-link router-link-active">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/server/golang/" class="nav-link">
+  Golang
+</a></li><li class="dropdown-item"><!----> <a href="/server/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/server/docker/" class="nav-link">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="大前端" class="dropdown-title"><span class="title">大前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="大前端" class="mobile-dropdown-title"><span class="title">大前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front/npm_and_yarn/" class="nav-link">
+  npm 与 yarn
+</a></li></ul></div></div><div class="nav-item"><a href="/系统架构设计师/" class="nav-link">
+  系统架构设计师
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="网络安全" class="dropdown-title"><span class="title">网络安全</span> <span class="arrow down"></span></button> <button type="button" aria-label="网络安全" class="mobile-dropdown-title"><span class="title">网络安全</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/网络安全/网络安全知识/网络安全基础知识.html" class="nav-link">
+  网络安全知识
+</a></li><li class="dropdown-item"><!----> <a href="/网络安全/ctf/kali.html" class="nav-link">
+  CTF
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="杂项" class="dropdown-title"><span class="title">杂项</span> <span class="arrow down"></span></button> <button type="button" aria-label="杂项" class="mobile-dropdown-title"><span class="title">杂项</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/items/emoji/" class="nav-link">
+  Emoji
+</a></li><li class="dropdown-item"><!----> <a href="/items/markdown/" class="nav-link">
+  Markdown
+</a></li><li class="dropdown-item"><!----> <a href="/items/mac_timemachine/" class="nav-link">
+  Mac Time Machine
+</a></li><li class="dropdown-item"><!----> <a href="/items/magic_problem/" class="nav-link">
+  奇怪问题
+</a></li><li class="dropdown-item"><h4>
+          常用对照表
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/items/compare/compare_html.html" class="nav-link">
+  Html 常用字符转义
+</a></li><li class="dropdown-subitem"><a href="/items/compare/compare_mybatis.html" class="nav-link">
+  Mybatis 转义
+</a></li><li class="dropdown-subitem"><a href="/items/compare/compare_rgb.html" class="nav-link">
+  RGB 颜色对照
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://github.com/yueryueryueryuer/yueryueryueryuer.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务端" class="dropdown-title"><span class="title">服务端</span> <span class="arrow down"></span></button> <button type="button" aria-label="服务端" class="mobile-dropdown-title"><span class="title">服务端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/server/java/" class="nav-link router-link-active">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/server/golang/" class="nav-link">
+  Golang
+</a></li><li class="dropdown-item"><!----> <a href="/server/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/server/docker/" class="nav-link">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="大前端" class="dropdown-title"><span class="title">大前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="大前端" class="mobile-dropdown-title"><span class="title">大前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front/npm_and_yarn/" class="nav-link">
+  npm 与 yarn
+</a></li></ul></div></div><div class="nav-item"><a href="/系统架构设计师/" class="nav-link">
+  系统架构设计师
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="网络安全" class="dropdown-title"><span class="title">网络安全</span> <span class="arrow down"></span></button> <button type="button" aria-label="网络安全" class="mobile-dropdown-title"><span class="title">网络安全</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/网络安全/网络安全知识/网络安全基础知识.html" class="nav-link">
+  网络安全知识
+</a></li><li class="dropdown-item"><!----> <a href="/网络安全/ctf/kali.html" class="nav-link">
+  CTF
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="杂项" class="dropdown-title"><span class="title">杂项</span> <span class="arrow down"></span></button> <button type="button" aria-label="杂项" class="mobile-dropdown-title"><span class="title">杂项</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/items/emoji/" class="nav-link">
+  Emoji
+</a></li><li class="dropdown-item"><!----> <a href="/items/markdown/" class="nav-link">
+  Markdown
+</a></li><li class="dropdown-item"><!----> <a href="/items/mac_timemachine/" class="nav-link">
+  Mac Time Machine
+</a></li><li class="dropdown-item"><!----> <a href="/items/magic_problem/" class="nav-link">
+  奇怪问题
+</a></li><li class="dropdown-item"><h4>
+          常用对照表
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/items/compare/compare_html.html" class="nav-link">
+  Html 常用字符转义
+</a></li><li class="dropdown-subitem"><a href="/items/compare/compare_mybatis.html" class="nav-link">
+  Mybatis 转义
+</a></li><li class="dropdown-subitem"><a href="/items/compare/compare_rgb.html" class="nav-link">
+  RGB 颜色对照
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://github.com/yueryueryueryuer/yueryueryueryuer.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Stream</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/server/java/stream/stream.html" class="sidebar-link">Stream 详解</a></li><li><a href="/server/java/stream/stream_commonly.html" class="sidebar-link">常用 Stream</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Optional</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/server/java/optional/optional.html" class="sidebar-link">Optional 详解</a></li><li><a href="/server/java/optional/optional_commonly.html" class="active sidebar-link">常用 Optional</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="常用-optional"><a href="#常用-optional" class="header-anchor">#</a> 常用 Optional</h1></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2021-01-27 22:31:54</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/server/java/optional/optional.html" class="prev">
+        Optional 详解
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.da0b4243.js" defer></script><script src="/assets/js/2.2ce72ce0.js" defer></script><script src="/assets/js/26.0b1a6351.js" defer></script><script src="/assets/js/3.2b87fdfa.js" defer></script>
+  </body>
+</html>
