@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "a63e01dc9cc7c158f73e07cf0f90391e"
+    "revision": "fd23b8154d963e5bfd46f279d2f13278"
   },
   {
     "url": "assets/css/0.styles.e223730f.css",
@@ -62,8 +62,8 @@ self.__precacheManifest = [
     "revision": "de810ea4bcfe67f180ec2b0775ef68a5"
   },
   {
-    "url": "assets/js/16.56813fc2.js",
-    "revision": "c37bd2a0453d13a4cf3921fb3c1745a2"
+    "url": "assets/js/16.3f01d811.js",
+    "revision": "63ab574de1081b787726ac0e895f277d"
   },
   {
     "url": "assets/js/17.7774b4bd.js",
@@ -222,16 +222,16 @@ self.__precacheManifest = [
     "revision": "82e10cd4a91685d6921d7aa6d288d359"
   },
   {
-    "url": "assets/js/52.4359a49d.js",
-    "revision": "1e619ca56c35a48ceda9c76139b32c8b"
+    "url": "assets/js/52.a2ba567a.js",
+    "revision": "f2ed76859aa689f677320bf4fc09f037"
   },
   {
     "url": "assets/js/53.cd92bfcd.js",
     "revision": "8a7027b2a5fa414da5ff595f7760d6b7"
   },
   {
-    "url": "assets/js/54.01cc27af.js",
-    "revision": "22d9caee46851043c38154588fa6a376"
+    "url": "assets/js/54.079750a9.js",
+    "revision": "7d6aed25f20d57e2235790cc27d61249"
   },
   {
     "url": "assets/js/55.dc3c0b1e.js",
@@ -254,12 +254,12 @@ self.__precacheManifest = [
     "revision": "93459245a560459f265a943ef3f1b1e3"
   },
   {
-    "url": "assets/js/app.960c2c74.js",
-    "revision": "6ddc5622eed990f66938b0413d2dbbfb"
+    "url": "assets/js/app.6a7378a1.js",
+    "revision": "55bfcca2229c28fd3096839236c733c8"
   },
   {
     "url": "front/npm_and_yarn.html",
-    "revision": "09dd3b1fcc0c427b85a6939e3f49a387"
+    "revision": "4f48faaa900ae9df815eee31de89aded"
   },
   {
     "url": "icons/128.png",
@@ -343,195 +343,195 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4fa5a8939dad74617c8fb585fdbeb5ce"
+    "revision": "2813cef7735fccb55bc6d3347dac8da1"
   },
   {
     "url": "items/compare/compare_html.html",
-    "revision": "39acbe84cc678abae0262d0179e22400"
+    "revision": "677f2993a4ff7462aff9d14d24f1ebf6"
   },
   {
     "url": "items/compare/compare_mybatis.html",
-    "revision": "93b901fadf9ac4124b961ad6777e8a75"
+    "revision": "add2c498b9cea14319e32ec8e21a77f3"
   },
   {
     "url": "items/compare/compare_rgb.html",
-    "revision": "6cf5cdf77ff0326c3181ecbbaf43c821"
+    "revision": "4f1d57f7ff2a8a668c4a6d9cae63dd68"
   },
   {
     "url": "items/development.html",
-    "revision": "7d18c47107936d72a245bf4ac2be2c8d"
+    "revision": "33ca19198dbc143e06ab488e17f2bf6f"
   },
   {
     "url": "items/emoji.html",
-    "revision": "4c06ddf0c6293f8c2e7fa7f739bf7470"
+    "revision": "d7685fc4d9b42ac5b50da88934a108dc"
   },
   {
     "url": "items/index.html",
-    "revision": "ee52588124c912885ee0f66b2f257df1"
+    "revision": "204f6714dbfa9d0d2f6fee1732978cc5"
   },
   {
     "url": "items/mac_timemachine.html",
-    "revision": "4d8205d3a0ad51c3fb866dc93ea71b1d"
+    "revision": "369a1d058c3a4f8f4be1d8c9526913a9"
   },
   {
     "url": "items/magic_problem/bigsur_l2tp.html",
-    "revision": "fdc764b4efc5d5cd466a2bcd4bfb3ab6"
+    "revision": "2d8fec5c12bc95afce3fa10b0b1b125d"
   },
   {
     "url": "items/magic_problem/parallels_desktop_15.html",
-    "revision": "dda5917cc1bc79d3b222acb228a546f4"
+    "revision": "e2c973f03f923ea284f450e656f77ce5"
   },
   {
     "url": "items/markdown.html",
-    "revision": "41ca2e782d2b335732e17b6fe911ac21"
+    "revision": "995206254e1d53cc5bca2bae33bd85e7"
   },
   {
     "url": "server/docker/docker_install.html",
-    "revision": "0466d8b8de0c28d07ea46badaa25aa64"
+    "revision": "9327b26707c055fa269627183197e8e2"
   },
   {
     "url": "server/docker/docker_mysql5.7.html",
-    "revision": "5d3fd918d97192d4273e3b880b076dc8"
+    "revision": "f33e518479a71cf494dec84d9e144faf"
   },
   {
     "url": "server/docker/docker_use.html",
-    "revision": "774ed3076890a76316a01e0e64810bd2"
+    "revision": "0fa523a9a2316a12f47af24fe483893e"
   },
   {
     "url": "server/docker/index.html",
-    "revision": "658a17a91b014d5db3e6d94d15fe746e"
+    "revision": "94ae74806e61b63090df2afe050e0585"
   },
   {
     "url": "server/golang/index.html",
-    "revision": "b9913d254a6ec078f40daa07f6dc7de9"
+    "revision": "b6c8b93578de39551a8683054ee18565"
   },
   {
     "url": "server/golang/learning.html",
-    "revision": "2c9594c62397e196929c17d6d73e49db"
+    "revision": "4e509a969a6a289a44328a43f481752f"
   },
   {
     "url": "server/java/index.html",
-    "revision": "ccdf2362cb6f05d612ba420a8c10dd55"
+    "revision": "01cb8c57f57c291b509596dde06aa644"
   },
   {
     "url": "server/java/optional/optional_commonly.html",
-    "revision": "7f481afa6e52d1790064985e1b40f1eb"
+    "revision": "070a798037abc6dea46964f650231c1e"
   },
   {
     "url": "server/java/optional/optional.html",
-    "revision": "0806518e1e4cea5305919ac73dce2355"
+    "revision": "6eeff4c40fb043024f4b620a65b970f2"
   },
   {
     "url": "server/java/stream/stream_commonly.html",
-    "revision": "a4b83123820353921ddeef6988a2a417"
+    "revision": "757479d1945a3bcb8cf6e23b52e58ee5"
   },
   {
     "url": "server/java/stream/stream.html",
-    "revision": "836e22911325d187a456f5aca9c3dc10"
+    "revision": "14956cae0ab95d99166fc50f2ac69bae"
   },
   {
     "url": "server/linux/command.html",
-    "revision": "388f3f8f3ae5d9073a6ba90f4f84bc63"
+    "revision": "d2882963ad270f6bcc371ae62ee28b75"
   },
   {
     "url": "server/linux/date.html",
-    "revision": "787a6e64c3381d803b5cb4d9820b7aa7"
+    "revision": "8fa70732d98287917e238fbdb1aca220"
   },
   {
     "url": "server/linux/disk.html",
-    "revision": "fad2e97e04d896cb83954cc6b962d36a"
+    "revision": "10b0829b3288d81cdda3502c60c1122e"
   },
   {
     "url": "server/linux/firewall.html",
-    "revision": "eecb5749bdefca69ad6465c94b694017"
+    "revision": "63f7116ab51177d8931cd26ca4c9a632"
   },
   {
     "url": "server/linux/index.html",
-    "revision": "0feaf09a82fc3a92d7abfebe8f3d7dc1"
+    "revision": "d78add8e096631f5024f8dd24f318a1f"
   },
   {
     "url": "server/linux/network.html",
-    "revision": "916835de8a7b93284dfc0a356a3621e4"
+    "revision": "38e44708a5f2c2f68c5071c13ff0a2ec"
   },
   {
     "url": "server/mysql/date.html",
-    "revision": "3660a4b14b6b02294d07ac0298aeced1"
+    "revision": "9a58e2d6b3665baa1187692ed3cfed86"
   },
   {
     "url": "server/mysql/index.html",
-    "revision": "92ca19bbb42abfbbfc8c5526aab6aa30"
+    "revision": "c1ebf748e9229357c1d81a4c17ae3e9a"
   },
   {
     "url": "stack/index.html",
-    "revision": "1887183fdfb09c1cee9b702d850fcba4"
+    "revision": "d7e97a82c29a180fa65ae8060e328e1f"
   },
   {
     "url": "网络安全/ctf/ctf基础知识.html",
-    "revision": "0089c9d60420a7f6a9d0e1c88662b97c"
+    "revision": "d27162b004cf3366fb3340513afebf5a"
   },
   {
     "url": "网络安全/ctf/kali.html",
-    "revision": "e03aea82855dbfa53b2d1e654af83b6b"
+    "revision": "c561b969bf6f62ef49b7c601d60745c0"
   },
   {
     "url": "网络安全/index.html",
-    "revision": "17c2aa1ee28607c791527f8821347188"
+    "revision": "71f4cbcd005caa03c922f3c0f32de1e6"
   },
   {
     "url": "网络安全/网络安全知识/信息安全.html",
-    "revision": "a12ae85c216d38f56ec1eb950434e951"
+    "revision": "a368bfa5ee891728982022c289e1b405"
   },
   {
     "url": "网络安全/网络安全知识/网络安全基础知识.html",
-    "revision": "f33ce0ef996630e74c3d9a0afbac7ca0"
+    "revision": "4a48599b5764a48fd91c8fb5b34a9f84"
   },
   {
     "url": "网络安全/网络安全知识/网络攻击与防御.html",
-    "revision": "0977f4751d3bd34f5c47847dc308f4db"
+    "revision": "d8dd68b5889606dd14df3959d1353ae9"
   },
   {
     "url": "软考/信息系统项目管理师/index.html",
-    "revision": "47e120a48b5bd82e0fad38ddebc348bb"
+    "revision": "282b4666b2d1279de8bef831a1313aa4"
   },
   {
     "url": "软考/系统架构设计师/index.html",
-    "revision": "bd3906d035020a24f477f7b52ba51770"
+    "revision": "f86c5880167ea86a658fa71ce08bd493"
   },
   {
     "url": "软考/系统架构设计师/开发方法/基于架构的软件设计.html",
-    "revision": "c50e4157d14e985a552b61153c3e4e73"
+    "revision": "cd2c753ad258354732a76cb8a24235f8"
   },
   {
     "url": "软考/系统架构设计师/开发方法/形式化方法.html",
-    "revision": "aed5c1b13659990e15ee4c4c696f937f"
+    "revision": "606ef507a9e2e791d1ed1bd09367c530"
   },
   {
     "url": "软考/系统架构设计师/开发方法/敏捷方法.html",
-    "revision": "015fed7fb53e721b409cee55706a81f4"
+    "revision": "09c1d1986e36265f8b66ed3ca9df6ca8"
   },
   {
     "url": "软考/系统架构设计师/开发方法/统一过程.html",
-    "revision": "c654ed3685f64b4d9a5400e61f394ceb"
+    "revision": "a8eb16ea714a6d8db747c15615bd966e"
   },
   {
     "url": "软考/系统架构设计师/开发方法/软件开发模型.html",
-    "revision": "e240d58e8a1170bb04b4914bd903cac9"
+    "revision": "852821316fba2998fbe7f73816fc2ca6"
   },
   {
     "url": "软考/系统架构设计师/开发方法/软件生命周期.html",
-    "revision": "0493647a7c81f93fe3030b5f9cd1f87c"
+    "revision": "ee14d594b01934365eb3fa1c31b93efb"
   },
   {
     "url": "软考/系统架构设计师/开发方法/软件重用.html",
-    "revision": "f378a642fd8b0be2fd95dcea82f1dafb"
+    "revision": "5ce6e7d84031e3771aed54874b7e50cf"
   },
   {
     "url": "软考/系统架构设计师/操作系统/操作系统基本原理.html",
-    "revision": "64e61008859ce54eb58f405b6838c22c"
+    "revision": "ce4df3a09d6a4ad4c5cebef79e2c69f9"
   },
   {
     "url": "软考/系统架构设计师/操作系统/操作系统的类型与结构.html",
-    "revision": "ef928e19f21ffaa999183039daf5f6fe"
+    "revision": "4786cf238f512ebc6aecdfbec4c899b2"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
