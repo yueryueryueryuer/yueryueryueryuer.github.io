@@ -5,6 +5,12 @@
 - `Parallels Desktop 15.1.4`：[Parallels Desktop 15.1.4 (47270)](https://pan.baidu.com/s/1T74lJZC7P2vAzLULhGbmgg) 密码: 8khn
 - `kali-2020.3`：[kali-linux-2020.3-installer-amd64.iso 官网地址](https://www.kali.org/downloads/) 或 [历史 kali 镜像](http://old.kali.org/kali-images/)
 
+::: warning
+启动 Parallels Desktop 时若出现 `无法启动 Parallels Desktop，因为您的 Mac 操作系统缺少一些必需组件`
+
+请根据 [无法启动 Parallels Desktop](/items/magic_problem/parallels_desktop_15) 来解决问题
+:::
+
 ## 配置
 
 ### 切换 root 用户

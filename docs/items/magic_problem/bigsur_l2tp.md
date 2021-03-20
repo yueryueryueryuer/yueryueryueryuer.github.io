@@ -1,6 +1,4 @@
-# 奇怪问题
-
-## macOS 升级 Big Sur 后 L2TP VPN 连不上
+# macOS 升级 Big Sur 后 L2TP VPN 连不上
 
 问题现象：
 

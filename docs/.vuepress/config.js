@@ -54,6 +54,9 @@ module.exports = {
                     text: 'Golang',
                     link: '/server/golang/'
                 }, {
+                    text: 'MySQL',
+                    link: '/server/mysql/'
+                }, {
                     text: 'Linux',
                     link: '/server/linux/'
                 }, {
@@ -125,6 +128,10 @@ module.exports = {
                     items: [{
                         text: 'macOS Big Sur L2TP VPN 连不上',
                         link: '/items/magic_problem/bigsur_l2tp'
+                    },
+                    {
+                        text: '无法启动 Parallels Desktop',
+                        link: '/items/magic_problem/parallels_desktop_15'
                     }]
                 }
                 ]
@@ -166,6 +173,10 @@ module.exports = {
                 title: 'Golang 学习路线',
                 path: '/server/golang/learning'
             }],
+            '/server/mysql/': [{
+                title: 'MySQL 时区配置',
+                path: '/server/mysql/date'
+            }],
             '/server/linux/': [{
                 title: '文件操作',
                 path: '/server/linux/disk'
@@ -177,6 +188,10 @@ module.exports = {
             {
                 title: 'firewall',
                 path: '/server/linux/firewall'
+            },
+            {
+                title: '时间和时区',
+                path: '/server/linux/date'
             }
             ],
             '/server/docker/': [{
@@ -413,6 +428,10 @@ module.exports = {
                 children: [{
                     title: 'macOS Big Sur L2TP VPN 连不上',
                     path: '/items/magic_problem/bigsur_l2tp'
+                },
+                {
+                    title: '无法启动 Parallels Desktop',
+                    path: '/items/magic_problem/parallels_desktop_15'
                 }]
             }],
         }
