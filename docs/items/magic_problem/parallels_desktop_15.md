@@ -1,8 +1,6 @@
 # 无法启动 Parallels Desktop
 
-问题现象：
-
-::: error
+::: danger 问题现象
 无法启动 Parallels Desktop，因为您的 Mac 操作系统缺少一些必需组件。
 :::
 
